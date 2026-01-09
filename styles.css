@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-header{
+header{ 
+   
     width: 1600px;
     margin: 4px 120px 0px 120px;
     background-color: #FFFFFF;
@@ -174,3 +175,12 @@ nav .cta-button a{
     gap: 2px;
     
 }
+#last {
+  margin-top: 0;
+}
+  
+  
+#last .ntg{
+    justify-items: center;
+}
+
