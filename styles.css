@@ -12,6 +12,7 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+
 nav{
     display: flex;
     align-items: center;
@@ -122,6 +123,7 @@ nav .cta-button a{
     padding: 24px 24px 24px 24px;
     border: 1px solid blue;
     max-width: 322px;
+    height: 260px;
 }
 .note-card img{
     max-height: 60px;
@@ -136,5 +138,39 @@ nav .cta-button a{
 .note-card p{
     font-size: 16px;
     line-height: 20px;
+    color: #627382;}
+  #second{
+    width: 1600px;
+    padding-top: 0;
+  }  
+#second .contant-container{
+    padding: 120px 120px 120px 120px;
+}
+#second .contant-container .contant{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-left: 150px;
+}
+#second .solutions {
+    width: 700px;
+    padding: 50px 0px 102px 0;
+}
+#second .solutions h4{
+    color: #30B868;
+    margin-bottom: 5px;
+}
+#second .solutions p{
+    margin-top: 5px;
     color: #627382;
+}
+.solutions .list{
+    margin-top: 5px;
+}
+.solutions .list .pr{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    
 }
