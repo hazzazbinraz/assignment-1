@@ -8,10 +8,13 @@ header{
    
     width: 1600px;
     margin: 4px 120px 0px 120px;
-    background-color: #FFFFFF;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+nav .cta-button:hover{
+    transform: scale(1.05);
 }
 
 nav{
@@ -30,14 +33,21 @@ nav .cta-button{
      border-radius: 5px;
      border-style: none;
 }
+#section-btn :hover{
+    transform: scale(1.05);
+}
 nav .cta-button a{
     color: #FFFFFF;
     text-decoration: none;
 }
 
 #about{
+    background-color: #001931;
     padding-top: 155px;
     
+}
+#about .section-heading button:hover{
+    transform: scale(1.05);
 }
 #about .about-container{
     width: 71%;
@@ -84,7 +94,7 @@ nav .cta-button a{
     border-style: none;
 }
 #section-btn .btn2{
-    background-color: none;
+    background-color: #001931;
      color: #FFFFFF;
     border-radius: 10px;
     font-weight: 16;
@@ -180,7 +190,3 @@ nav .cta-button a{
 }
   
   
-#last .ntg{
-    justify-items: center;
-}
-
